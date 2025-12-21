@@ -111,7 +111,7 @@ export default {
   },
   computed: {
     cover() {
-      var cover = "https://img.shiyit.com/1642481294001.png";
+      var cover = "https://api.lobox.qzz.io/1642481294001.png";
       return "background: url(" + cover + ") center center / cover no-repeat";
     }
   }

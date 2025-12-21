@@ -209,7 +209,7 @@ export default {
       left: 0;
       right: 0;
       height: 120px;
-      background-image: url('https://img.shiyit.com/beijing.jpg');
+      background-image: url('https://api.lobox.qzz.io/beijing.jpg');
       background-size: cover;
       background-position: center;
       transition: opacity 0.3s ease;
