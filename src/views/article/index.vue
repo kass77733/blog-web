@@ -430,7 +430,7 @@ export default {
      * 获取加载中的图片
      */
     getLoadingImage() {
-      return 'https://api.lobox.qzz.io/base/mojian/lazy.gif'
+      return 'https://lobox.qzz.io/base/mojian/lazy.gif'
     },
     /**
      * 生成目录
@@ -655,7 +655,7 @@ export default {
                 img.classList.add('loaded')
               }
               tempImg.onerror = () => {
-                img.src = 'https://api.lobox.qzz.io/base/mojian/img-error.jpg'
+                img.src = 'https://lobox.qzz.io/base/mojian/img-error.jpg'
                 img.classList.add('error')
               }
               tempImg.src = actualSrc
