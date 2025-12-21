@@ -655,7 +655,7 @@ export default {
                 img.classList.add('loaded')
               }
               tempImg.onerror = () => {
-                img.src = 'https://www.lobox.qzz.io/base/mojian/img-error.jpg'
+                img.src = 'https://www.lobox.qzz.io/base/mojian/img-error.png'
                 img.classList.add('error')
               }
               tempImg.src = actualSrc

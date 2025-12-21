@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger)
 // 配置 vue-lazyload
 Vue.use(VueLazyload, {
   preLoad: 1.3,
-  error: 'https://www.lobox.qzz.io/base/mojian/img-error.jpg',
+  error: 'https://www.lobox.qzz.io/base/mojian/img-error.png',
   loading: 'https://www.lobox.qzz.io/base/mojian/lazy.gif',
   attempt: 1,
   observer: true,
