@@ -187,13 +187,13 @@ export default {
               icon: 'fas fa-user',
               colorClass: 'about-me-link'
             },
-            { 
-              name: '网站源码', 
-              path: 'https://gitee.com/quequnlong', 
-              icon: 'fab fa-github',
-              colorClass: 'github-link',
-              external: true 
-            },
+            //{ 
+            //  name: '网站源码', 
+            //  path: 'https://gitee.com/quequnlong', 
+            //  icon: 'fab fa-github',
+            //  colorClass: 'github-link',
+            //  external: true 
+            //},
             { 
               name: '后台管理', 
               path: import.meta.env.VITE_APP_ADMIN_URL || 'http://localhost:3000',
