@@ -778,10 +778,20 @@ export default {
             const isCollapsed = pre.classList.contains('collapsed')
             if (isCollapsed) {
               pre.classList.remove('collapsed')
+              
+              // ⭐ 必须加这两行
+              pre.style.maxHeight = pre.scrollHeight + 'px'
+              pre.style.overflow = 'visible'
+
               expandButton.innerHTML = '<i class="fas fa-chevron-up"></i>收起代码'
               this.collapsedCodeBlocks.delete(index)
             } else {
               pre.classList.add('collapsed')
+
+              // ⭐ 收起时还原
+              pre.style.maxHeight = '500px'
+              pre.style.overflow = 'hidden'
+
               expandButton.innerHTML = '<i class="fas fa-chevron-down"></i>展开代码'
               this.collapsedCodeBlocks.add(index)
             }
